@@ -12,3 +12,8 @@ repos:
         entry: poetry run pylint ./sessao_zero
         language: system
         types: [python]
+  - repo: https://github.com/sqlfluff/sqlfluff
+    rev: 0.9.1
+    hooks:
+      - id: sqlfluff-lint
+      - id: sqlfluff-fix
