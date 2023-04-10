@@ -1,6 +1,6 @@
-'''This is the main entry point of the application. It is responsible for
+"""This is the main entry point of the application. It is responsible for
 creating the Flask application and configuring it. It also registers the
-blueprints for the different parts of the application.'''
+blueprints for the different parts of the application."""
 
 from flask import Flask
 

@@ -1,6 +1,14 @@
 [sqlfluff]
 templater = jinja
 sql_file_exts = .sql,.sql.j2,.dml,.ddl
+rules = core
+fix_even_unparsable = True
+dialect = sqlite
+
+[sqlfluff:rules]
+allow_scalar = True
+single_table_references = consistent
+unquoted_identifiers_policy = all
 
 [sqlfluff:indentation]
 indented_joins = true
