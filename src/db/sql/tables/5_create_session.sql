@@ -1,4 +1,4 @@
-CREATE TABLE campaign_session (
+CREATE TABLE IF NOT EXISTS campaign_session (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     session_date DATETIME NOT NULL,
     description VARCHAR(5000),
