@@ -30,3 +30,8 @@ def insert(insertion: dict):
     insert data
     """
     print(insertion)
+
+def findOne():
+    """
+    find one data
+    """
