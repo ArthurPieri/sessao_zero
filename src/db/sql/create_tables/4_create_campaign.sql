@@ -1,5 +1,6 @@
 CREATE TABLE IF NOT EXISTS campaign (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
+    game_master INTEGER NOT NULL,
     name VARCHAR(64) NOT NULL,
     description VARCHAR(5000) NOT NULL,
     players_limit INTEGER,
